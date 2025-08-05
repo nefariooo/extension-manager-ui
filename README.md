@@ -44,7 +44,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/nefariooo/extension-manager-ui.git)
-- Live Site URL: [Netify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://magnificentthrush05-extension-manager.netlify.app/)
 
 ## My process
 
