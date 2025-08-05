@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <main>
+    <header class="extensions-header">
+      <div class="extensions-logo-container">
+        <img class="webpage-extensions-icon" src="assets/images/logo.svg" alt="webpage-icon-was-here :(">
+      </div>
+      <div>
+        <button id="theme-button" class="change-theme-button">
+          <img class="moon-img" src="assets/images/icon-moon.svg" alt="">
+          <img class="sun-img" src="assets/images/icon-sun.svg" alt="">
+        </button>
+      </div>
+    </header>
+
+
+
+    <div class="extension-list">
+      <h1 class="extension-list-heading">Extensions List</h1>
+      <div class="extensions-categories">
+        <button class="all category-btn">All</button>
+        <button class="active category-btn">Active</button>
+        <button class="Inactive category-btn">Inactive</button>
+      </div>
+    </div>
+
+
+
+    <div id="extensions-container" class="all-extensions-container">
+    </div>
+  </main>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
